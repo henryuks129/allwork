@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    <link rel="stylesheet" href="../styles/sample.css">
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+ -->
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Sample</title>
+</head>
+<body>
+    <nav>
+        <h4>Henry</h4>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+    </nav>
+    <img src="../assets/shopping_cart_checkout_FILL0_wght400_GRAD0_opsz48 (1).svg">
+    <span class="material-symbols-outlined">
+        shopping_cart_checkout
+        </span>
+    <section class="section-1">
+        <p>Sample</p>
+
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quia libero tempora modi placeat quisquam dolorum necessitatibus rem et, aliquam molestiae. Natus, iusto! Repellendus, consequatur ex quis natus a harum?</h2>
+        <a href="">Facebook</a>
+        <h3>font weight</h3>
+        <h1>font-style and font-family</h1>
+    </section>
+
+    <!--  selectors-- simple selectors(id, class element), universal, group(descendant, child), pseudo-classes and psuedo-elements, attribute selectors -->
+
+    <!-- for id and class -->
+
+    <section class="section-2">
+        <p class="para">explaining class selectors</p>
+        <p class="para">using para as a class for two p tags in this section</p>
+        <p id="id-of-paragraph">explaining id selectors</p>
+    </section>
+
+    <!-- for descendant selectors -->
+
+    <section class="section-3">
+        <p>paragraph 1 in section-3</p>
+        <p>paragraph 2 in section-3</p>
+        <div>
+            <p>paragraph 3 in section-3</p>
+        </div>
+
+        <!-- <p>lorem, ipsum dolor.</p> -->
+    </section>
+    <p>paragraph 4 not in section-3</p>
+    <p>paragraph 5 not in section-3</p>
+
+    <!-- group selectors -->
+    <section class="section-4"> 
+        <h2>h2 tag of section-4</h2>
+        <h1>h1 tag of section-4</h1>
+        <p>p tag of section-4</p>
+        <h4>h4 tag of section-4</h4>
+    </section>
+
+    <!-- psuedo-classes -->
+    <section class="section-5">
+        <img src="../assets/shopping_cart_checkout_FILL0_wght400_GRAD0_opsz48 (1).svg" alt="shopping cart icon">
+        <form>
+            <input type="text"name="" placeholder="enter your name...">
+            <!-- <input name="" id="" class="" placeholder=""> -->
+        </form>
+    </section>
+
+    <!-- pseudo-elements(uses double colon) -->
+    <section class="section-6">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita reprehenderit commodi itaque qui, at perferendis sequi excepturi nemo voluptatibus exercitationem blanditiis deleniti mollitia, magnam explicabo laboriosam nulla delectus, accusamus quae? Error doloremque eveniet facere. Fugit, eaque molestias, veniam error ea facilis qui debitis laudantium inventore nisi enim aperiam laboriosam recusandae provident, exercitationem quaerat. Illum reiciendis itaque, incidunt minus accusantium sint soluta quibusdam rerum quas excepturi temporibus ea optio quos, mollitia assumenda laudantium ut ad asperiores hic voluptas, veritatis tenetur necessitatibus? Odio unde obcaecati quibusdam earum molestiae alias, natus nulla hic, a, ea similique mollitia veritatis officia possimus sit sapiente. Eos.</p>
+    </section>
+
+    <!-- attributes(styling based on the elemrnts attribute) selectoers -->
+
+    <section class="section7">
+        <form>
+            <input type="password" name="" id="" placeholder="password...">
+            <input tyoe="email" placeholder="email">
+        </form>
+    </section>
+
+    <!-- box model -->
+    <!-- box model is a box that wraps around every html element.... it consisits of margins, borders, padding, and the actual content -->
+    <!--  1)content- the content of the box, where text and images appear -->
+    <!--  2)paading- clears an area around the content, the padding is transparent -->
+    <!--  3)border- a border that goes around the padding and content -->
+    <!--  4)margin- clears an area outside the border, the margin is transparent -->
+
+    <!-- padding -->
+    <!-- the css padding propertis are used to generate space around an element's content, inside of any defined borders... see below for the padding properties which we can use to have full control of the content -->
+    <!-- 1) padding-top -->
+    <!-- 2) padding-right -->
+    <!-- 3) padding-bottom -->
+    <!-- 4) padding-left -->
+
+    <section class="section-8">
+        <h2>using indidvidual padding properties</h2>
+        <div>
+            <p>this div would have a top padding of 4rem, a right padding of 3rem, bottom padding of 4rem and a left padding of 6rem</p>
+        </div>
+    </section>
+
+    <!-- the position  properties -->
+    <!-- static -->
+    <!-- relative -->
+    <!-- absolute -->
+    <!-- fixed -->
+    <!-- sticky -->
+
+    <section class="section-9">
+        <div class="box red">red</div>
+        <div class="box green">green</div>
+        <div class="box yellow">yellow</div>
+        <div class="box blue">blue</div>
+    </section>
+
+    <p class="sticky-p">sticky</p>
+
+    <h2>Lorem ipsum <span class="span"> dolor sit amet consectetur adipisicing elit</span>. Dignissimos, eaque.</h2>
+
+    <button>submit</button>
+ <ul>
+  <li id="inner-main">home</li>
+  <li id="inner-main">about</li>
+  <li id="inner-main">career</li>
+  <li id="inner-main">contact review</li>
+  </ul> 
+
+  <div class="flex-container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+  </div>
+
+<!-- CSS FLEXBOX -->
+<!-- To use flexbox we need a parent container(div or semantic tags), and also declaration of position: flex.....flex box has other properties like align=items, align-content, gap e.t.c...see below for examples -->
+
+<section class="section-10">
+    <div class="Box Red">1</div>
+    <div class="Box Green">2</div>
+    <div class="Box Blue">3</div>
+    <div class="Box Yellow">4</div>
+</section>
+
+<div class="sample">
+   <a href="https://techstudioacademy.com/" target="_blank"> <img src="../assets/icons8-whatsapp-100.svg" alt=""> </a>
+</div>
+
+</body>
+</html>

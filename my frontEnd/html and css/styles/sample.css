@@ -1,0 +1,418 @@
+/* for imports it is best to put it at the top because it is cascading from top top bottom */
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+.section-1{
+    /* background-image: linear-gradient(to right, red, blue); */
+    background-image: linear-gradient(pink,purple,orange,aqua,lightblue);
+    text-shadow: 1px 1px 10px ;
+}
+
+/*  font-size and text-align */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+ul{
+    border: 3px solid #0d1117;
+    display: flex;
+    justify-content: center;
+}
+.li{
+    display: inline;
+    margin-right: 10px;
+    border: solid blue 5px; 
+    text-align: center;
+}  
+
+p{ 
+    font-size: 3em;
+    /* text-align: center; */
+}
+
+/* line height */
+h2{
+    line-height: 4em;
+}
+
+/* text decoration */
+a{
+    text-decoration: none;
+}
+
+/* font weight */
+h3{
+    font-weight: lighter;
+}
+
+/* font-style and font-family */
+h1{
+    /* font-style: italic; */
+    font-family: 'Alkatra', cursive;
+}
+
+/* classes and id */
+#id-of-paragraph{
+color: green;
+}
+
+.para{
+    font-size: 2em;
+    text-align: center;
+}
+
+/* descendant selectors and child selectors */
+.section-3{
+    background-color: yellow;
+}
+
+
+/* group selectors */
+/* .section-h2{
+    background-color: blue;
+    font-size: 2em;
+    text-decoration: line-through;
+}
+.section-h1{
+    background-color: blue;
+    font-size: 2em;
+    text-decoration: line-through;
+}
+.section-p{
+    background-color: blue;
+    font-size: 2em;
+    text-decoration: line-through;
+}
+.section-h4{
+    background-color: blue;
+    font-size: 2em;
+    text-decoration: line-through;
+} 
+    
+.section-4 h2,
+.section-4 h1,
+.section-4 p,
+.section-4 h4{
+    background-color: rgb(30, 30, 203);
+    font-size: 2em;
+    text-decoration: line-through;
+    /* border: 4px solid;  */
+/* }  */
+
+/* psuedo-class(it uses a single colon) */
+.section-5 img:hover{
+    position: relative;
+    top: 1em;
+}
+
+form input:focus{
+    border: 4px dashed red;
+    outline: none;
+}
+
+/* form input:valid{
+    border: 4px solid green;
+    outline: none;
+} */
+
+ .section-6 p::selection{
+    background-color: red;
+} 
+
+/* .section-6 p::first-line{
+    background-color: red;
+} */
+
+/* .section-6 p::first-letter{
+    background-color: red;
+} */
+
+
+/* attributes selector(styling based on the elemrnts attribute)  */ 
+form input[type='password']{
+    width: 50%;
+}
+
+form input[type='email']{
+    width: 50%;
+}
+
+/* box model */
+
+/* padding, border, margin*/
+
+.section-8{
+    /* border-width: 4px;
+    border-style: solid;
+    border-color: red;
+    border-bottom: 4rem; */
+    border: solid 4px red;
+}
+
+.section-8 div{
+    background-color: lightblue;
+    /* border: 5px dashed blue; */
+    /* padding-top: 4rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+     padding-left: 6rem; */
+     padding: 4rem 2rem 4rem 2rem;
+     margin: 5rem;
+      box-shadow:  15px 15px 8px rgb(84, 85, 85);
+    }
+
+.section-8 div p{
+    background-color: lightblue;
+    border: 5px solid blue;
+    /* padding-top: 4rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+     padding-left: 6rem; */
+     padding: 4rem 2rem 4rem 6rem;
+     
+} 
+
+.section-8 div h2{
+    margin-top: 3rem;
+    background-color: lightblue;
+    border: bottom 5px dashed pink;
+    /* padding-top: 4rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+     padding-left: 6rem; */
+     padding: 4rem 2rem 4rem 6rem;
+} 
+
+button{
+    background-color: blue;
+    color: whitesmoke;
+    width: 30%;
+    height: 2rem;
+    margin: 15px;
+    border-radius: 15px;
+border: none;
+
+}
+
+li:first-child{
+    color:rgb(30, 30, 203)
+}
+
+li:last-child{
+    color:red;
+    text-decoration: overline;
+}
+
+li:nth-child(2){
+    color: pink;
+    text-decoration: overline;
+}
+
+li:nth-child(3){
+    color: rgb(173, 215, 215);
+    text-decoration: overline;
+}
+
+/* end of by the side with between */
+
+/* setion 9 for css properties */
+.section-9{
+    border: 2px solid black;
+    margin-top: 5rem;
+    width: 80%;
+    /* padding-top: 2rem;
+    padding-bottom: 2rem; */
+    padding: 2rem 0;
+}
+
+.box{
+    width: 9%;
+    height: 3rem; 
+    text-align: center;
+}
+
+.red{
+    background-color: red;
+
+
+}
+
+.blue{
+    background-color: blue;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    border-radius: 500%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* use paading to move the text in the blue circle */
+    box-shadow: 5px 5px 10px 2px black;
+    transition: scale .7s ease;
+}
+
+.blue:hover{
+     transform: scale(1.5);
+     cursor: pointer;
+
+}
+
+/* img{
+    padding-top: 2em;
+    padding-bottom: 9em;
+    width: 3rem;
+    bottom: 30px;
+    right: 40px;
+    resize: both; 
+    height: 4rem;
+}   */
+
+.green{
+    background-color: green;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 500%;
+    padding-top: 15px;
+    /* use paading to move the text in the blue circle */
+    box-shadow: 5px 5px 10px 2px black;
+    transition: scale .7s ease;
+}
+
+.green:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+    /* position: relative; */
+    /* top: -10px;  */
+} 
+
+/* .sample img{
+    position: fixed;
+    bottom: 40px;
+    right: 0px;
+    border-radius: 5%;
+    padding-top: 10rem; 
+} */
+
+.sample{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    /* background-color: #25d366; 
+    /* color: #ffffff; */
+    /* border: 50%; */
+    border-radius: 500%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    margin-top: 16px;
+}
+
+img{
+    width: 50px;
+    height: 60px;
+}
+
+.yellow{
+    background-color: yellow;
+    position: fixed;
+    /* position: sticky; */
+    /* top: 10px; */
+    bottom: 10px;
+    right: 15px;
+    border-radius: 500%;
+    padding-top: 15px;
+    /* use paading to move the text in the blue circle */
+    box-shadow: 5px 5px 10px 2px black;
+    transition: scale .7s ease;
+}
+
+.yellow:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.sticky{
+    position: fixed;
+    top: 50px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: black;
+    border: 2px solid;
+}
+
+.flex-container>div{
+    background-color: blueviolet;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.span{
+    color: brown;
+   display: none;
+   visibility: hidden;
+}
+
+/* section 10 for css flexbox */
+.section-10{
+    display: flex;
+    border: 1px solid #0d1117;
+    height: 20rem;
+    /* /* flex-direction: row-reverse;  */
+    /* flex-wrap: wrap-reverse; */
+    /* /* flex-direction: column-reverse  */
+    /* flex-wrap: wrap reverse */
+    /* gap: 5rem; */
+    /* justify-content: center;
+    justify-content: flex-end;
+    justify-content: flex-start;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+    align-items: center;
+    /* align-items: flex-end;
+    align-items: flex-start; */
+}
+
+.Box{
+    width: 20%;
+    height: 5rem;
+    background-color: #0d1117;
+    color: orange;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+
+.Red{
+    background-color: red;
+}
+
+.Green{
+    background-color: green;
+}
+
+.Blue{
+    background-color: blue;
+}
+
+.Yellow{
+    background-color: yellow;
+}
+

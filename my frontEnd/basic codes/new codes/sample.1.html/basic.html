@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--tables-->
+    <!--<thead> is the table heading, <tboby> is the table body-->
+        <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ukiwa Henry</td>
+                <td>ukiwa@gmail.com</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Sarah Williams</td>
+                <td>Sarah@gmail.com</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+
+       <!-- <div style="margin-top:500px;"></div> is used for spacing-->
+    </table>
+
+    <!-- forms -->
+    <form action="process.php" method="POST">
+        <div>
+          <label>First Name</label>
+          <input type="text" name="first-name" placeholder="enter first name"> <!-- placeholder is used to set a removable hint in the input field-->
+        </div>
+        <br>
+        <div>
+            <label>Last Name</label>
+            <input type="text" name="lastName"> <!--camel case is basically starting with a lower case and every other word that comes after is going to be upper case -->
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="Email" name="Email">
+          </div>
+          <br>
+          <div>
+            <label>Message</label>
+            <textarea name="text"></textarea> <!-- textarea is a bigger text input. you don't need an input tag because there's a textarea tag -->
+          </div>
+          <br>
+          <div>
+            <label>Gender</label>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+            </select>
+          </div>
+          <br>
+          <div>
+            <label>Age</label>
+            <input type="number" name="age" value="30"> <!-- adding value to age isn't really necessary. doing that is just to add a predefined value to your input -->
+          </div>
+          <br>
+          <div>
+            <label>Birthday</label>
+            <input type="date" name="birthday">
+          </div>
+          <br>
+          <input type="submit" name="submit" value="Register">
+    </form>
+
+    <!-- button -->
+   <!-- <button click="somefunctions">Click Me</button> the click buton doesn't take you anywhere because you need javascript to make it work -->
+
+   <!-- READ ON EVENTS! -->
+
+   <!-- padding is the default spacing on the left and right side of the site "it's the space between the content and the border of the site" -->
+
+   <!-- margin controls the spacing between the edges of your web page and the element itself -->
+
+
+   <!-- Quotations --> <!-- there are different types of quotations and they are block-quote, aggreviate and cite -->
+  <blockquote cite="google.com" target="_blank"> 
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto debitis cum dolor ipsam. Eum ducimus dolor saepe tempora? Distinctio iste eos esse eius velit aut ullam blanditiis cum voluptatum? Quasi aut id excepturi modi ea, neque dolore iusto alias esse ad dolorem ullam autem corrupti accusantium similique iste ex magni expedita, quod quidem deserunt quae. Sint ratione dignissimos excepturi natus maxime reiciendis sed harum sunt asperiores rem pariatur voluptatum necessitatibus iure, officiis qui quam rerum iste perspiciatis repellat dolore possimus, tempore odit! Exercitationem dolores debitis facere, corporis modi tenetur. Pariatur inventore et soluta aliquid quia dicta doloribus minus officiis sequi.
+  </blockquote>
+
+  <p>The <abbr title="world wide web">www</abbr>is awesome</p>
+
+  <p><cite>HTML crash course</cite> by brad traversy</p>
+
+  <!-- <small> is used to create dates or sub-contents-->
+</body>
+</html>
