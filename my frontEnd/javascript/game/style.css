@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Inter:wght@400;700&family=Lexend+Deca&family=PT+Sans:wght@400;700&family=Poppins:wght@600&family=Silkscreen&display=swap');
+
+
+:root{
+    --saturated: hsl(192, 100%, 9%);
+    --font-family: 'Silkscreen';
+    --font-size: 60px;
+    --color: white;
+    --color2: firebrick;
+    --background-color: black;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bask{
+    text-align: center;
+    height: 4rem;
+    background-color: black;
+    align-items: center;
+}
+
+body{
+    font-family: var(--font-family);
+    background: var(--saturated);
+    height: 40vh;
+    color: var(--color);
+}
+
+.GAME{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    /* place-content: center; */
+}
+
+.GAME  h2{
+    font-size: var(--font-size);
+    color: var(--color2);
+    background-color: var(--background-color);
+    width: 50%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.gray{
+    background-color: transparent;
+    font-family: var(--font-family);
+}
+
+.ave{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    /* padding: 5rem; */
+    height: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

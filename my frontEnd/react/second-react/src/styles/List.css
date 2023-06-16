@@ -1,0 +1,23 @@
+.list-container{
+    width: 80%;
+    margin: auto;
+    height: 20rem;
+}
+.package {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-content: center;
+    place-items: center;
+    grid-gap: 20px;
+}
+
+.package-inner {
+    background-color: white;
+    text-align: center;
+}
+
+.package .btn {
+    background-color: blue;
+    color: white;
+}

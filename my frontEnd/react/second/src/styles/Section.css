@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Inter:wght@400;700&family=Lexend+Deca&family=PT+Sans:wght@400;700&family=Poppins:wght@600&family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&family=Rubik:wght@400;500&family=Silkscreen&display=swap');
+
+:root{
+    --font-family: 'Rubik';
+    --Font-size: 18px;
+    --Grayish-Blue: hsl(229, 8%, 60%);
+    --Very-Dark-Blue: hsl(229, 31%, 21%);
+    --Soft-Blue: hsl(231, 69%, 60%);
+    --Soft-Red: hsl(0, 94%, 66%)
+}
+
+.text{
+    margin-top: 7rem;
+}
+
+.text h1{
+    text-align: center;
+    font-family: var(--font-family);
+}
+
+.text p{
+    text-align: center;
+    width: 72%;
+    margin: auto;
+    font-size: var(--Font-size);
+    color: var(--Grayish-Blue);
+}

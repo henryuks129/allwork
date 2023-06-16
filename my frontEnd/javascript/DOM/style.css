@@ -1,0 +1,23 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.hide{
+    display: none;
+}
+
+.red{
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Inter:wght@400;700&family=Lexend+Deca&family=PT+Sans:wght@400;700&family=Poppins:wght@600&family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&family=Rubik:wght@400;500&family=Silkscreen&display=swap');
+
+:root{
+    --font-family: 'Rubik';
+    --Font-size: 18px;
+    --Grayish-Blue: hsl(229, 8%, 60%);
+    --Very-Dark-Blue: hsl(229, 31%, 21%);
+    --Soft-Blue: hsl(231, 69%, 60%);
+    --Soft-Red: hsl(0, 94%, 66%)
+}
+
+.hero{
+    position: relative;
+}
+
+.hero-image img{
+    width: 100%; 
+    margin: auto;
+    position: absolute;
+    margin-top: -22.8rem;
+}
+
+.background{
+    background: var(--Soft-Blue);
+    border-top-left-radius: 80rem;
+    border-bottom-left-radius: 80rem;
+    height: 35vh;
+    margin-top: 11rem;
+    margin-left: 6.1rem;
+}
+
+.inner-hero{
+    margin-bottom: 4rem;
+}
+
+.illustration h1{
+    text-align: center;
+    font-family: var(--font-family);
+    width: 97%;
+    margin: auto;
+    font-size: 35px;
+}
+
+.illustration p{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 1.2rem;
+    line-height: 1.8rem;
+    color: var(--Grayish-Blue);
+    font-size: var(--Font-size);
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    margin-top: 2rem;
+    height: 3.5rem;
+    width: 12rem;
+    font-family: var(--font-family);
+    font-size: var(--Font-size);
+    border-radius: 6px;
+    border: none;
+}
+
+.btn1{
+    background-color: var(--Soft-Blue);
+    box-shadow: 3px 6px 5px 3px var(--Grayish-Blue);
+    color: white;
+}
+
+.btn2{
+    /* background-color: var(--Grayish-Blue); */
+    box-shadow: 3px 6px 5px 3px var(--Grayish-Blue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

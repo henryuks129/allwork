@@ -1,0 +1,18 @@
+.package{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   place-content: center;
+   place-items: center;
+   grid-gap: 20px;
+}
+
+.package-inner{
+    background-color: white;
+    text-align: center;
+}
+
+.package button{
+    background-color: blue;
+    color: white;
+}

@@ -1,0 +1,59 @@
+:root{
+    --Soft-Blue: hsl(231, 69%, 60%);
+}
+
+.main{
+    position: relative;
+}
+
+.main-background{
+    background: var(--Soft-Blue);
+    border-top-right-radius: 50rem;
+    border-bottom-right-radius: 50rem;
+    height: 33vh;
+    margin-top: 11rem;
+    margin-right: 5rem;
+}
+
+.main-image img{
+    width: 88%;
+    margin: auto;
+    position: absolute;
+    margin-top: -21rem;
+    margin-left: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
